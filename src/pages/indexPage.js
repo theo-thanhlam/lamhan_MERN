@@ -4,6 +4,7 @@ import AboutUs from "../components/aboutUs";
 import Gallery from "../components/gallery";
 import CustomerReview from "../components/customerReview";
 import StoreInfo from "../components/storeInfo";
+
 const IndexPage = () => {
   return (
     <>
