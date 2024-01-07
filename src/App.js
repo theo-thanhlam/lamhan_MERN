@@ -1,13 +1,17 @@
-import { Routes, Route } from "react-router-dom";
-import Layout from "./layout";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+
 import IndexPage from "./pages/indexPage";
+import { Footer, Header } from "./components";
+
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<IndexPage />} />
-      </Route>
-    </Routes>
+    <BrowserRouter>
+      <Header/>
+      <Routes>
+        <Route index element={<IndexPage />}></Route>
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
   );
 }
 

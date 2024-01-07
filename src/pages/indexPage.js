@@ -1,20 +1,20 @@
-import Heading from "../components/header";
-import Welcome from "../components/welcome";
-import AboutUs from "../components/aboutUs";
-import Gallery from "../components/gallery";
-import CustomerReview from "../components/customerReview";
-import StoreInfo from "../components/storeInfo";
+import Welcome from "../components/Welcome";
+import AboutUs from "../components/AboutUs";
+import Gallery from "../components/Gallery";
+import CustomerReview from "../components/CustomerReview";
+import StoreInfo from "../components/StoreInfo";
 
 const IndexPage = () => {
   return (
-    <>
-      <Heading />
-      <Welcome />
-      <AboutUs />
-      <Gallery />
-      <CustomerReview />
-      <StoreInfo />
-    </>
+    <main>
+      <div style={{marginTop: "100px"}}>
+        <Welcome />
+        <AboutUs />
+        <Gallery />
+        <CustomerReview />
+        <StoreInfo />
+      </div>
+    </main>
   );
 };
 
