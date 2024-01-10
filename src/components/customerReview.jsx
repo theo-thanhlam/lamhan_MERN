@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from './heading'
+import Heading from './Heading'
 
 const CustomerReview = () => {
   return (

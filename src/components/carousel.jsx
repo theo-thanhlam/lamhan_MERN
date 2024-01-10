@@ -1,13 +1,11 @@
 import { Carousel, IconButton} from "@material-tailwind/react";
-import CarouselItem from "./carouselItem";
+import CarouselItem from "./CarouselItem";
 
 const Slider = () => {
   return (
     <>
       This is Carousel
     </>
-
-
   )
 }
 

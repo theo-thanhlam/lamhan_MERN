@@ -1,6 +1,6 @@
 import React from 'react'
-import Hours from './hours'
-import StoreLocation from './storeLocation'
+import Hours from './Hours'
+import StoreLocation from './StoreLocation'
 const StoreInfo = () => {
   return (
     <div className='container mx-auto'> 

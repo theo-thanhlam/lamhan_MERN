@@ -1,5 +1,5 @@
 import React from 'react'
-import OrderButton from './orderButton'
+import OrderButton from './OrderButton'
 
 
 const platforms = [

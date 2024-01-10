@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from './heading'
+import Heading from './Heading'
 import hours from '../json/hours.json'
 import contact from '../json/contact.json'
 const Hours = () => {
